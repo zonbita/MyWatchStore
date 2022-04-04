@@ -1,0 +1,16 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+.control-label {
+    margin: 25px 0;
+}
+
+.modal-content {
+    width: 60%;
+}

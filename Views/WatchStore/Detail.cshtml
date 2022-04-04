@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_WatchStoreLayout.cshtml";
+}
+<h2>@Model.TenDH</h2>
+<hr />
+<img src="~/DataImages/@Model.Image" alt="@Model.TenDH" />
+<h3>THÔNG TIN</h3>
+<hr />
+@Html.Action("DetailInfo", "WatchStore", new { maHang = Model.MaHang })
+<h3>THÔNG TIN CHI TIẾT</h3>
+<hr />
+<p>Xuất xứ: </p>
+<p>Giới tính: </p>
+<p>Kính: </p>
+<p>Máy: </p>
+<p>Đường kính mặt số: </p>
+<p>Bề dày mặt số: </p>
+<p>Màu mặt số: </p>
+<p>Dây đeo: </p>
+<p>Chống nước: </p>
+<p>Chức năng: </p>
+<a href="@Url.Action("AddToCart", "Cart", new { @maDH = @Model.MaDH, @strUrl = Request.Url.ToString()})">Thêm vào giỏ hàng</a>

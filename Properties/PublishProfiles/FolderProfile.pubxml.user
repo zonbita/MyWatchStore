@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\hutvo\Desktop</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.TelemetryCorrelation.dll">
+      <publishTime>06/28/2017 15:05:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/MyWatchStore.dll">
+      <publishTime>04/05/2019 23:15:49</publishTime>
+    </File>
+    <File Include="bin/MyWatchStore.pdb">
+      <publishTime>04/05/2019 23:15:49</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/18/2018 09:44:54</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 17:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 18:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/1.css">
+      <publishTime>03/18/2019 08:34:01</publishTime>
+    </File>
+    <File Include="Content/AdminLogin.css">
+      <publishTime>03/26/2019 09:40:10</publishTime>
+    </File>
+    <File Include="Content/AdminLTE.min.css">
+      <publishTime>03/24/2019 22:37:38</publishTime>
+    </File>
+    <File Include="Content/AdminSingle.css">
+      <publishTime>03/27/2019 11:06:21</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>03/10/2019 13:56:41</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>03/24/2019 22:34:48</publishTime>
+    </File>
+    <File Include="Content/ionicons.min.css">
+      <publishTime>03/24/2019 22:35:31</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>03/22/2019 12:22:27</publishTime>
+    </File>
+    <File Include="Content/SingleView.css">
+      <publishTime>03/19/2019 19:15:38</publishTime>
+    </File>
+    <File Include="Content/skin-blue.min.css">
+      <publishTime>03/24/2019 22:38:11</publishTime>
+    </File>
+    <File Include="DataImages/102_W-S200H-1AVDF.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/103_W-S200H-1BVDF-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/105_AW1370-51B-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/106_AW1370-51M-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/106_EV0052-50P-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/107_AW1570-87A-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/108_AW1570-87H-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/109_BH3005-05E-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/10_SNE439P1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/110_BH3005-56E-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/111_BI5060-51L-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/127_SNE394P1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/134_DW00100135-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/141_BI5014-58E-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/157_DW00100260-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/158_DW00100259-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/161_DW00100110-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/167_DW00100117-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/168_DW00100118-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/168_DW00100118-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/176_DW00100128-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/176_DW00100128-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/18_SRPB74K1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/20_SRPC59K1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/232_DW00100021-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/262_DW00100140-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/268_DW00100150-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/273_DW00100097-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/273_DW00100097-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/274_DW00100108-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/30_BGA-150PG-5B1DR-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/32_BGA-230SA-1ADR-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/46_MTP-1214A-8AVDF-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/46_MTP-1214A-8AVDF-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/50_ECB-800D-1ADR.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/52_ECB-800DC-1ADR-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/59_BI5014-58E-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/70_GSG-100-1A8DR-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/768_BI5014-58E-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/7_GBA-800-2A2DR-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/9_SNE423P1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/AW-80D-7AVDF-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-AW-80D-7AVDF-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-AW-80D-7AVDF-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-AW-80D-7AVDF-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-AW-80D-7AVDF-3-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-150PG-5B1DR-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-150PG-5B1DR-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-150PG-5B1DR-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-150PG-5B1DR-3-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-230SA-1ADR-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-230SA-1ADR-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-230SA-1ADR-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-230SA-1ADR-3-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-BGA-230SA-1ADR-5-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/casio-box.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-DBC-32D-1ADF-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-DBC-32D-1ADF-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-G-100BB-1ADR-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-G-100BB-1ADR-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-G-100BB-1ADR-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-G-100BB-1ADR-3-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-GSG-100-1A8DR-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-GSG-100-1A8DR-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-GSG-100-1A8DR-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-GSG-100-1A8DR-3-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-GSG-100-1A8DR-4-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-MTP-1214A-8AVDF-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-MTP-1214A-8AVDF-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-MTP-1214A-8AVDF-4-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-W-S200H-1BVDF-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-W-S200H-1BVDF-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-W-S200H-1BVDF-2.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CASIO-W-S200H-1BVDF-3.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/CITIZEN-EV0052-50P-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CITIZEN-EV0052-50P-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CITIZEN-EV0052-50P-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/CITIZEN-EV0052-50P-3-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/DBC-32D-1ADF-399x399.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/dong-ho-nam-casio-g-shock-ga-150-1adr-1.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/DW00100021-DW00100052-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/DW00100108-DW00100096-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/DW00100247-DW00100150-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/ECB-800DC-1AEF_5m.jpg">
+      <publishTime>03/13/2019 19:40:30</publishTime>
+    </File>
+    <File Include="DataImages/G-100BB-1ADR-399x399.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/g-shock-gba-800-step-tracker-700x525.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/hqdefault.jpg">
+      <publishTime>03/13/2019 19:40:28</publishTime>
+    </File>
+    <File Include="DataImages/SEIKO-SNE394P1-3-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/SEIKO-SNE394P1-4-399x399.jpg">
+      <publishTime>03/13/2019 19:40:26</publishTime>
+    </File>
+    <File Include="DataImages/SEIKO-SRPB74K1-0-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/SEIKO-SRPB74K1-4-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/SEIKO-SRPC59K1-1-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="DataImages/SEIKO-SRPC59K1-2-399x399.jpg">
+      <publishTime>03/13/2019 19:40:27</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>03/10/2019 13:55:03</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>03/10/2019 13:55:03</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>03/10/2019 13:55:03</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>03/10/2019 13:55:03</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>03/10/2019 13:55:03</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="Images/banner-photo.jpg">
+      <publishTime>03/10/2019 23:07:37</publishTime>
+    </File>
+    <File Include="Images/menu-photo.png">
+      <publishTime>03/10/2019 23:07:37</publishTime>
+    </File>
+    <File Include="Images/watch-thumbnail.jpg">
+      <publishTime>03/10/2019 23:07:37</publishTime>
+    </File>
+    <File Include="Models/WatchStore.dbml">
+      <publishTime>03/24/2019 21:10:51</publishTime>
+    </File>
+    <File Include="Scripts/adminlte.min.js">
+      <publishTime>03/24/2019 22:41:23</publishTime>
+    </File>
+    <File Include="Views/Admin/AddProduct.cshtml">
+      <publishTime>04/01/2019 23:29:11</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminDashboard.cshtml">
+      <publishTime>03/24/2019 22:22:02</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminEdit.cshtml">
+      <publishTime>04/02/2019 23:19:24</publishTime>
+    </File>
+    <File Include="Views/Admin/AdminProduct.cshtml">
+      <publishTime>04/01/2019 23:05:11</publishTime>
+    </File>
+    <File Include="Views/Admin/Boss.cshtml">
+      <publishTime>03/24/2019 22:01:04</publishTime>
+    </File>
+    <File Include="Views/Cart/CartPartial.cshtml">
+      <publishTime>03/22/2019 20:03:35</publishTime>
+    </File>
+    <File Include="Views/Cart/CartView.cshtml">
+      <publishTime>04/03/2019 13:51:05</publishTime>
+    </File>
+    <File Include="Views/Cart/ThanhToan.cshtml">
+      <publishTime>03/19/2019 19:48:12</publishTime>
+    </File>
+    <File Include="Views/Cart/XacNhanDatHang.cshtml">
+      <publishTime>03/19/2019 19:41:48</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/24/2019 23:00:43</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>04/03/2019 13:42:40</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="Views/Shared/_WatchStoreLayout.cshtml">
+      <publishTime>04/03/2019 14:23:09</publishTime>
+    </File>
+    <File Include="Views/User/DangKy.cshtml">
+      <publishTime>03/26/2019 09:29:03</publishTime>
+    </File>
+    <File Include="Views/User/DangNhap.cshtml">
+      <publishTime>03/19/2019 17:57:20</publishTime>
+    </File>
+    <File Include="Views/User/LoginPartial.cshtml">
+      <publishTime>03/22/2019 20:12:44</publishTime>
+    </File>
+    <File Include="Views/WatchStore/Category.cshtml">
+      <publishTime>03/16/2019 21:44:24</publishTime>
+    </File>
+    <File Include="Views/WatchStore/Detail.cshtml">
+      <publishTime>03/18/2019 10:09:54</publishTime>
+    </File>
+    <File Include="Views/WatchStore/DetailInfo.cshtml">
+      <publishTime>03/15/2019 09:25:42</publishTime>
+    </File>
+    <File Include="Views/WatchStore/Index.cshtml">
+      <publishTime>03/22/2019 13:01:00</publishTime>
+    </File>
+    <File Include="Views/WatchStore/ViewCategory.cshtml">
+      <publishTime>03/22/2019 13:01:13</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/10/2019 13:44:03</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/05/2019 23:15:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

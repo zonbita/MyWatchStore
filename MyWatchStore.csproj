@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D726B372-5481-4ED2-A0FA-D1AD0608E24C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyWatchStore</RootNamespace>
+    <AssemblyName>MyWatchStore</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\WatchStoreController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SanPhamMua.cs" />
+    <Compile Include="Models\WatchStore.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WatchStore.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\1.css" />
+    <Content Include="Content\AdminLogin.css" />
+    <Content Include="Content\AdminLTE.min.css" />
+    <Content Include="Content\AdminSingle.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\ionicons.min.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\SingleView.css" />
+    <Content Include="Content\skin-blue.min.css" />
+    <Content Include="DataImages\102_W-S200H-1AVDF.jpg" />
+    <Content Include="DataImages\103_W-S200H-1BVDF-399x399.jpg" />
+    <Content Include="DataImages\105_AW1370-51B-399x399.jpg" />
+    <Content Include="DataImages\106_AW1370-51M-399x399.jpg" />
+    <Content Include="DataImages\106_EV0052-50P-399x399.jpg" />
+    <Content Include="DataImages\107_AW1570-87A-399x399.jpg" />
+    <Content Include="DataImages\108_AW1570-87H-399x399.jpg" />
+    <Content Include="DataImages\109_BH3005-05E-399x399.jpg" />
+    <Content Include="DataImages\10_SNE439P1-399x399.jpg" />
+    <Content Include="DataImages\110_BH3005-56E-399x399.jpg" />
+    <Content Include="DataImages\111_BI5060-51L-399x399.jpg" />
+    <Content Include="DataImages\127_SNE394P1-399x399.jpg" />
+    <Content Include="DataImages\134_DW00100135-399x399.jpg" />
+    <Content Include="DataImages\141_BI5014-58E-1-399x399.jpg" />
+    <Content Include="DataImages\157_DW00100260-1-399x399.jpg" />
+    <Content Include="DataImages\158_DW00100259-1-399x399.jpg" />
+    <Content Include="DataImages\161_DW00100110-399x399.jpg" />
+    <Content Include="DataImages\167_DW00100117-399x399.jpg" />
+    <Content Include="DataImages\168_DW00100118-2-399x399.jpg" />
+    <Content Include="DataImages\168_DW00100118-399x399.jpg" />
+    <Content Include="DataImages\176_DW00100128-1-399x399.jpg" />
+    <Content Include="DataImages\176_DW00100128-2-399x399.jpg" />
+    <Content Include="DataImages\18_SRPB74K1-399x399.jpg" />
+    <Content Include="DataImages\20_SRPC59K1-399x399.jpg" />
+    <Content Include="DataImages\232_DW00100021-399x399.jpg" />
+    <Content Include="DataImages\262_DW00100140-399x399.jpg" />
+    <Content Include="DataImages\268_DW00100150-399x399.jpg" />
+    <Content Include="DataImages\273_DW00100097-2-399x399.jpg" />
+    <Content Include="DataImages\273_DW00100097-399x399.jpg" />
+    <Content Include="DataImages\274_DW00100108-399x399.jpg" />
+    <Content Include="DataImages\30_BGA-150PG-5B1DR-399x399.jpg" />
+    <Content Include="DataImages\32_BGA-230SA-1ADR-399x399.jpg" />
+    <Content Include="DataImages\46_MTP-1214A-8AVDF-1-399x399.jpg" />
+    <Content Include="DataImages\46_MTP-1214A-8AVDF-2-399x399.jpg" />
+    <Content Include="DataImages\50_ECB-800D-1ADR.jpg" />
+    <Content Include="DataImages\52_ECB-800DC-1ADR-399x399.jpg" />
+    <Content Include="DataImages\59_BI5014-58E-399x399.jpg" />
+    <Content Include="DataImages\70_GSG-100-1A8DR-399x399.jpg" />
+    <Content Include="DataImages\768_BI5014-58E-2-399x399.jpg" />
+    <Content Include="DataImages\7_GBA-800-2A2DR-399x399.jpg" />
+    <Content Include="DataImages\9_SNE423P1-399x399.jpg" />
+    <Content Include="DataImages\AW-80D-7AVDF-399x399.jpg" />
+    <Content Include="DataImages\CASIO-AW-80D-7AVDF-0-399x399.jpg" />
+    <Content Include="DataImages\CASIO-AW-80D-7AVDF-1-399x399.jpg" />
+    <Content Include="DataImages\CASIO-AW-80D-7AVDF-2-399x399.jpg" />
+    <Content Include="DataImages\CASIO-AW-80D-7AVDF-3-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-150PG-5B1DR-0-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-150PG-5B1DR-1-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-150PG-5B1DR-2-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-150PG-5B1DR-3-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-230SA-1ADR-0-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-230SA-1ADR-1-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-230SA-1ADR-2-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-230SA-1ADR-3-399x399.jpg" />
+    <Content Include="DataImages\CASIO-BGA-230SA-1ADR-5-399x399.jpg" />
+    <Content Include="DataImages\casio-box.jpg" />
+    <Content Include="DataImages\CASIO-DBC-32D-1ADF-0-399x399.jpg" />
+    <Content Include="DataImages\CASIO-DBC-32D-1ADF-2-399x399.jpg" />
+    <Content Include="DataImages\CASIO-G-100BB-1ADR-0-399x399.jpg" />
+    <Content Include="DataImages\CASIO-G-100BB-1ADR-1-399x399.jpg" />
+    <Content Include="DataImages\CASIO-G-100BB-1ADR-2-399x399.jpg" />
+    <Content Include="DataImages\CASIO-G-100BB-1ADR-3-399x399.jpg" />
+    <Content Include="DataImages\CASIO-GSG-100-1A8DR-0-399x399.jpg" />
+    <Content Include="DataImages\CASIO-GSG-100-1A8DR-1-399x399.jpg" />
+    <Content Include="DataImages\CASIO-GSG-100-1A8DR-2-399x399.jpg" />
+    <Content Include="DataImages\CASIO-GSG-100-1A8DR-3-399x399.jpg" />
+    <Content Include="DataImages\CASIO-GSG-100-1A8DR-4-399x399.jpg" />
+    <Content Include="DataImages\CASIO-MTP-1214A-8AVDF-1-399x399.jpg" />
+    <Content Include="DataImages\CASIO-MTP-1214A-8AVDF-2-399x399.jpg" />
+    <Content Include="DataImages\CASIO-MTP-1214A-8AVDF-4-399x399.jpg" />
+    <Content Include="DataImages\CASIO-W-S200H-1BVDF-0-399x399.jpg" />
+    <Content Include="DataImages\CASIO-W-S200H-1BVDF-1-399x399.jpg" />
+    <Content Include="DataImages\CASIO-W-S200H-1BVDF-2.jpg" />
+    <Content Include="DataImages\CASIO-W-S200H-1BVDF-3.jpg" />
+    <Content Include="DataImages\CITIZEN-DSC02092-min.jpg" />
+    <Content Include="DataImages\CITIZEN-EV0052-50P-0-399x399.jpg" />
+    <Content Include="DataImages\CITIZEN-EV0052-50P-1-399x399.jpg" />
+    <Content Include="DataImages\CITIZEN-EV0052-50P-2-399x399.jpg" />
+    <Content Include="DataImages\CITIZEN-EV0052-50P-3-399x399.jpg" />
+    <Content Include="DataImages\DBC-32D-1ADF-399x399.jpg" />
+    <Content Include="DataImages\dong-ho-nam-casio-g-shock-ga-150-1adr-1.jpg" />
+    <Content Include="DataImages\DW00100021-DW00100052-1-399x399.jpg" />
+    <Content Include="DataImages\DW00100108-DW00100096-0-399x399.jpg" />
+    <Content Include="DataImages\DW00100247-DW00100150-1-399x399.jpg" />
+    <Content Include="DataImages\ECB-800DC-1AEF_5m.jpg" />
+    <Content Include="DataImages\G-100BB-1ADR-399x399.jpg" />
+    <Content Include="DataImages\g-shock-gba-800-step-tracker-700x525.jpg" />
+    <Content Include="DataImages\hqdefault.jpg" />
+    <Content Include="DataImages\SEIKO-SNE394P1-3-399x399.jpg" />
+    <Content Include="DataImages\SEIKO-SNE394P1-4-399x399.jpg" />
+    <Content Include="DataImages\SEIKO-SRPB74K1-0-399x399.jpg" />
+    <Content Include="DataImages\SEIKO-SRPB74K1-4-399x399.jpg" />
+    <Content Include="DataImages\SEIKO-SRPC59K1-1-399x399.jpg" />
+    <Content Include="DataImages\SEIKO-SRPC59K1-2-399x399.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Images\banner-photo.jpg" />
+    <Content Include="Images\menu-photo.png" />
+    <Content Include="Images\watch-thumbnail.jpg" />
+    <Content Include="Models\WatchStore.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>WatchStore.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Models\WatchStore.dbml.layout">
+      <DependentUpon>WatchStore.dbml</DependentUpon>
+    </None>
+    <Content Include="Scripts\adminlte.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_WatchStoreLayout.cshtml" />
+    <Content Include="Views\WatchStore\Index.cshtml" />
+    <Content Include="Views\WatchStore\Category.cshtml" />
+    <Content Include="Views\WatchStore\ViewCategory.cshtml" />
+    <Content Include="Views\WatchStore\Detail.cshtml" />
+    <Content Include="Views\WatchStore\DetailInfo.cshtml" />
+    <Content Include="Views\User\DangKy.cshtml" />
+    <Content Include="Views\User\DangNhap.cshtml" />
+    <Content Include="Views\Cart\CartView.cshtml" />
+    <Content Include="Views\Cart\ThanhToan.cshtml" />
+    <Content Include="Views\Cart\XacNhanDatHang.cshtml" />
+    <Content Include="Views\Cart\CartPartial.cshtml" />
+    <Content Include="Views\User\LoginPartial.cshtml" />
+    <Content Include="Views\Admin\Boss.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Admin\AdminDashboard.cshtml" />
+    <Content Include="Views\Admin\AdminProduct.cshtml" />
+    <Content Include="Views\Admin\AddProduct.cshtml" />
+    <Content Include="Views\Admin\AdminEdit.cshtml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49446</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49446/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

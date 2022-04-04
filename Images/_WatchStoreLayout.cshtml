@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> My Watch Store </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/1.css" type="text/css" runat="server" media="screen" rel="stylesheet" />
+    @RenderSection("ViewCss", false)
+</head>
+<body>
+    <div id="header">
+        <div class="info-bar">
+            <div class="container">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                @Html.Action("CartPartial", "Cart")
+                <p> <i class="fa fa-phone"></i>: 0988515884  </p>
+            </div>
+        </div> <!-- Hết info-bar -->
+        <div class="banner-bar">
+            <img class="banner-photo" src="~/Images/banner-photo.jpg" alt="banner-photo">
+            <div class="container">
+                <div class="row">
+                    <div class="banner-slogan col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h4>This is my store</h4>
+                        <h2>WATCH</h2>
+                        <!-- Trigger the modal with a button -->
+                        @Html.Action("LoginPartial", "User")
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Hết banner-bar -->
+        <!-- Menu bar -->
+        <div class="menu-bar">
+            <div class="container">
+                <h2 style="text-align: center">MY WATCH STORE</h2>
+                <img src="~/Images/menu-photo.png" />
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a href="/">TRANG CHỦ<span class="sr-only">(current)</span></a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DANH MỤC <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        @Html.Action("Category", "WatchStore")
+                                    </ul>
+                                </li>
+                                <li><a href="#">GIỚI THIỆU</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+                <!-- Hết menu bar -->
+            </div>
+        </div>    
+    </div> <!-- Hết header -->
+    <div id="body">
+        <div class="container">
+            <div class="row">
+                @RenderBody()
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.42174636549!2d106.78355321433723!3d10.855492260698785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175276dcce73e4b%3A0x860e9c892963d0e7!2zSHV0ZWNoIC0gxJDhuqFpIGjhu41jIGPDtG5nIG5naOG7hyBjxqEgc-G7nyBEIEU!5e0!3m2!1svi!2s!4v1554275912355!5m2!1svi!2s" width="900" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div> <!-- Hết body -->
+    <div id="footer">
+        <div class="container">
+            <p><i class="fa fa-copyright"></i>This layout is made by Khải </p>
+        </div>
+    </div> <!-- Hết footer -->
+</body>
+</html>

@@ -1,0 +1,180 @@
+.menu-bar h2 {
+    margin-top: 60px;
+}
+
+.menu-bar img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.thumbnail p {
+    text-align: center;
+}
+
+.thumbnail h3 {
+    text-align: center;
+}
+
+.thumbnail > img {
+    height: 220px;
+}
+
+.thumbnail {
+    border: none;
+    height: 470px;
+}
+
+.thumbnail a.btn.btn-primary {
+    background: none;
+    color: #f9dc00;
+    border-radius: 0;
+    border: 2px solid #f9dc00;
+}
+
+.thumbnail a.btn.btn-primary:hover {
+    background: #f9dc00;
+    color: white;
+}
+
+.thumbnail a.btn.btn-default {
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+.thumbnail a.btn.btn-default:hover {
+    background: black;
+    color: white;
+}
+
+.banner-bar .btn.btn-default {
+    background: none;
+    color: white;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+.dropdown-menu {
+    padding: 0 120px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.nav > li {
+    padding: 35px 123px;
+}
+
+.nav > li:hover {
+    font-weight: 600;
+}
+
+.menu-bar h1 {
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 25px;
+}
+
+.navbar.navbar-default {
+    background: none;
+    margin-top: 60px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    margin-bottom: 60px;
+}
+
+#footer p {
+    padding-top: 24px;
+    margin-bottom: 0;
+}
+
+.content {
+    background-color: #e63c5a;
+}
+
+.category {
+    background-color: #c95be6;
+    height: auto;
+}
+
+.banner-slogan h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.banner-slogan h4 {
+    margin-bottom: 0;
+}
+
+.banner-slogan {
+    color: white;
+    padding: 120px 0;
+}
+
+.banner-photo {
+    height: 525px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.logo {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.menu-bar a {
+    color: black;
+    height: auto;
+}
+
+.info-bar i {
+    color: white;
+    margin-right: 10px;
+}
+
+.info-bar .container {
+    padding-top: 3px;
+}
+
+.info-bar p {
+    float: right;
+    color: white;
+    border-left: solid 1px white;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+#header {
+    height: auto;
+}
+
+#body {
+    height: auto;
+}
+
+#footer {
+    background-color: #9e9e9e;
+    height: 70px;
+}
+
+.info-bar {
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+.menu-bar {
+    height: auto;
+}
+
+.banner-bar {
+    height: auto;
+}

@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "DangNhap";
+    Layout = "~/Views/Shared/_WatchStoreLayout.cshtml";
+}
+
+@section ViewCss {
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="~/Content/SingleView.css" type="text/css" runat="server" media="screen" rel="stylesheet" />
+}
+<h2>ĐĂNG NHẬP</h2>
+<hr />
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div class="form-dangnhap container">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="taikhoan">Tên đăng nhập: </label>
+                <div class="col-sm-10">
+                    @Html.TextBox("TaiKhoan", null, new { @class = "form-control", @id = "taikhoan", @placeholder = "Nhập tài khoản" })
+                    @ViewData["Error1"]
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="matkhau">Mật khẩu: </label>
+                <div class="col-sm-10">
+                    @Html.TextBox("MatKhau", null, new { @type = "password", @class = "form-control", @id = "pwd", @placeholder = "Nhập password" })
+                    @ViewData["Error2"]
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <a href="@Url.Action("DangKy", "User")">Đăng ký</a>
+                    <button type="submit" class="btn btn-default">Đăng nhập</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <p>@ViewBag.Thongbao</p>
+            </div>
+        </form>
+    </div>
+}
+

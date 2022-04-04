@@ -1,0 +1,3 @@
+﻿@foreach (var dh in Model) {
+    <li><a href="@Url.Action("ViewCategory", "WatchStore", new { maHang = dh.MaHang})">@dh.TenHang</a></li>
+}

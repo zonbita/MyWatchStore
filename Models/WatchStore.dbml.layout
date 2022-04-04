@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="WatchStore">
+  <DataContextMoniker Name="/WatchStoreDataContext" />
+  <nestedChildShapes>
+    <classShape Id="bae4bb66-2efb-484e-8205-edacea6dc813" absoluteBounds="0.75, 6.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/WatchStoreDataContext/ADMIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0a1de18e-4b58-4da6-853f-d3a127f1766a" absoluteBounds="0.765, 7.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f0caa2cb-07b7-4acc-8935-f0c11164ac19" absoluteBounds="6.25, 1.125, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/WatchStoreDataContext/CHITIETDONDATHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4390a123-b445-4d1d-8a77-4c22e1bdaf79" absoluteBounds="6.265, 1.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="84cb4a90-8871-4bcc-9c47-64931b07d2ee" absoluteBounds="3.5, 3.875, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/WatchStoreDataContext/DONDATHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21557050-55e1-4d0b-a5a5-495fee0adb98" absoluteBounds="3.515, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1455a8f7-cd20-4d7b-91f5-c004935ce50a" absoluteBounds="3.5, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/WatchStoreDataContext/DONGHO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac1525be-cdfb-4908-8341-23a8efb3d972" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e9a0fbb1-d6f8-4295-a172-1943e52e6f52" absoluteBounds="0.75, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/WatchStoreDataContext/HANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9c88438-7a6a-4260-86f1-8bc04b26c5ef" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ac47b7be-ce46-4e01-8013-19c159101a35" absoluteBounds="0.75, 3.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/WatchStoreDataContext/KHACHHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee1f2676-d637-43f4-ad4e-4ab684d0381d" absoluteBounds="0.765, 4.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 4.85659912109375); (7.25 : 4.85659912109375); (7.25 : 2.70359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WatchStoreDataContext/DONDATHANG/DONDATHANG_CHITIETDONDATHANG" />
+      <nodes>
+        <classShapeMoniker Id="84cb4a90-8871-4bcc-9c47-64931b07d2ee" />
+        <classShapeMoniker Id="f0caa2cb-07b7-4acc-8935-f0c11164ac19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.91429768880208); (6.25 : 1.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WatchStoreDataContext/DONGHO/DONGHO_CHITIETDONDATHANG" />
+      <nodes>
+        <classShapeMoniker Id="1455a8f7-cd20-4d7b-91f5-c004935ce50a" />
+        <classShapeMoniker Id="f0caa2cb-07b7-4acc-8935-f0c11164ac19" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.94314697265625); (3.5 : 1.94314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WatchStoreDataContext/HANG/HANG_DONGHO" />
+      <nodes>
+        <classShapeMoniker Id="e9a0fbb1-d6f8-4295-a172-1943e52e6f52" />
+        <classShapeMoniker Id="1455a8f7-cd20-4d7b-91f5-c004935ce50a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.85659912109375); (3.5 : 4.85659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WatchStoreDataContext/KHACHHANG/KHACHHANG_DONDATHANG" />
+      <nodes>
+        <classShapeMoniker Id="ac47b7be-ce46-4e01-8013-19c159101a35" />
+        <classShapeMoniker Id="84cb4a90-8871-4bcc-9c47-64931b07d2ee" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

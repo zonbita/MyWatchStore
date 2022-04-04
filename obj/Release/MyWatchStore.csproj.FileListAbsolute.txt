@@ -1,0 +1,167 @@
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\MyWatchStore.dll.config
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\MyWatchStore.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\MyWatchStore.pdb
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\csc.exe
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\csc.exe.config
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\csc.rsp
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\csi.exe
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\csi.exe.config
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\csi.rsp
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.AppContext.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Console.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.Compression.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.Pipes.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Claims.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.ValueTuple.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.XPath.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\vbc.exe
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\vbc.exe.config
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\vbc.rsp
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Antlr3.Runtime.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Newtonsoft.Json.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\PagedList.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\PagedList.Mvc.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Helpers.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Mvc.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Optimization.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Razor.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\WebGrease.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\PagedList.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\PagedList.Mvc.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Helpers.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Mvc.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Optimization.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.Razor.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Newtonsoft.Json.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Antlr3.Runtime.pdb
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.csprojAssemblyReference.cache
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.csproj.CoreCompileInputs.cache
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.csproj.CopyComplete
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.dll
+C:\Users\hutvo\Desktop\Random shit\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.pdb
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\MyWatchStore.dll.config
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\MyWatchStore.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\MyWatchStore.pdb
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\PagedList.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\WebGrease.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\PagedList.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.csproj.CopyComplete
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.dll
+C:\Users\Admin\Desktop\MyWatchStore\MyWatchStore\obj\Release\MyWatchStore.pdb

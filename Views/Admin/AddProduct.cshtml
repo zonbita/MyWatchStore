@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "AddProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@section AdminSingleCss {
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="~/Content/AdminSingle.css" rel="stylesheet" />
+}
+<h2>THÊM SẢN PHẨM</h2>
+@using (Html.BeginForm("AddProduct", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data"}))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-dangky container">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="tenDH">Tên đồng hồ: </label>
+                <div class="col-sm-10">
+                    @Html.TextBox("TenDH", null, new { @class = "form-control", @id = "tenDH", @placeholder = "Tên đồng hồ" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="xuatSu">Xuất sứ: </label>
+                <div class="col-sm-10">
+                    @Html.TextBox("XuatSu", null, new { @class = "form-control", @id = "xuatSu", @placeholder = "Xuất sứ" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="gia">Giá:</label>
+                <div class="col-sm-10">
+                    @Html.TextBox("Gia", null, new { @class = "form-control", @id = "gia", @placeholder = "Giá" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Mã hãng:</label>
+                <div class="col-sm-10">
+                    @Html.DropDownList("MaHang", null, new { @class = "form-control", @id = "maHang" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="anh">Ảnh: </label>
+                <div class="col-sm-10">
+                    <input type="file" name="AnhUpload" class="form-control"/>
+                    @ViewBag.ThongBao
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary btn-xs"><i class="fa fa-plus"></i> Thêm sản phẩm</button>
+                </div>
+            </div>
+        </form>
+    </div>
+}

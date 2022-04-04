@@ -1,0 +1,20 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+.table-responsive {
+    width: 95%;
+}
+
+img {
+    width: 45%;
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+.control-label {
+    margin: 25px 0;
+}

@@ -1,0 +1,31 @@
+﻿@using MyWatchStore.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<DONGHO>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_WatchStoreLayout.cshtml";
+}
+
+@foreach (var dh in Model)
+{
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div style="height: 470px" class="thumbnail">
+            <img src="~/DataImages/@dh.Image" alt="">
+            <div class="caption">
+                <h3 style="color: black; text-decoration: none;">@dh.TenDH</h3>
+                <p style="color: black; text-decoration: none;">
+                    @dh.Gia đ
+                </p>
+                <p>
+                    <a href="@Url.Action("AddToCart", "Cart", new { maDH = dh.MaDH, strUrl = Request.Url.ToString()})" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="@Url.Action("Detail", "WatchStore", new { maDH = dh.MaDH})" class="btn btn-default">CHI TIẾT</a>
+                </p>
+            </div>
+        </div>
+    </div>
+}
+Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+<div class="menu-trang">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>

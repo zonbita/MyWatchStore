@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "CartView";
+    Layout = "~/Views/Shared/_WatchStoreLayout.cshtml";
+}
+@section ViewCss {
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="~/Content/SingleView.css" type="text/css" runat="server" media="screen" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+}
+<h2>GIỎ HÀNG</h2>
+<hr />
+<div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+        <thead>
+            <tr>
+                <th style="width:50%">Sản phẩm</th>
+                <th style="width:10%">Giá</th>
+                <th style="width:8%">Số lượng</th>
+                <th style="width:22%" class="text-center">Thành tiền</th>
+                <th style="width:10%"></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td data-th="Product">
+                    <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="~/DataImages/@item.sImage" alt="@item.sTenDH" class="img-responsive" /></div>
+                        <div class="col-sm-10">
+                            <h4 class="nomargin">@item.sTenDH</h4>
+                        </div>
+                    </div>
+                </td>
+                @using (Html.BeginForm("Refresh", "Cart", new { maDH = item.iMaDH}))
+                {
+                    <td data-th="Price">@item.iDonGia</td>
+                    <td data-th="Quantity">
+                        <input type="number" min="1" name="SoLuong" class="form-control text-center" value="@item.iSoLuong">
+                    </td>
+                    <td data-th="Subtotal" class="text-center">@item.iThanhTien đ</td>
+                    <td class="actions" data-th="">
+                        @*<input type="submit" class="btn btn-info btn-sm" value="Cập nhật" />*@
+                        <button type="submit" class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                        <a href="@Url.Action("XoaSanPham", "Cart", new { maDH = item.iMaDH})" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></a>
+                    </td>
+                }
+            </tr>
+        }
+        </tbody>
+        <tfoot>
+            <tr class="visible-xs">
+                <td class="text-center"><strong>Tổng cộng: @ViewBag.TongTien đ</strong></td>
+            </tr>
+            <tr>
+                <td><a href="/" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua sắm</a></td>
+                <td colspan="2" class="hidden-xs"></td>
+                <td class="hidden-xs text-center"><strong>Tổng cộng: @ViewBag.TongTien</strong></td>
+                <td><a href="@Url.Action("ThanhToan", "Cart")" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+

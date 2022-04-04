@@ -1,0 +1,52 @@
+﻿@using MyWatchStore.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<DONGHO>
+@{
+    ViewBag.Title = "AdminProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@section AdminSingleCss {
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="~/Content/AdminSingle.css" rel="stylesheet" />
+}
+<h2>SẢN PHẨM</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="table-responsive">
+                <table id="mytable" class="table table-bordred table-striped">
+                    <thead>
+                        <th>Ảnh</th>
+                        <th>Tên</th>
+                        <th>Xuất Sứ</th>
+                        <th>Hãng</th>
+                        <th>Giá</th>
+                        <th>Sửa</th>
+                        <th>Xóa</th>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td style="width: 10%"><img src="~/DataImages/@item.Image" /></td>
+                                <td>@item.TenDH</td>
+                                <td>@item.XuatSu</td>
+                                <td>@item.MaHang</td>
+                                <td>@item.Gia</td>
+                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><a href="@Url.Action("AdminEdit", "Admin", new { maDH = item.MaDH})" class="btn btn-primary btn-xs" data-title="Edit" data-target="#edit"><span class="glyphicon glyphicon-pencil"></span></a></p></td>
+                                <td><a href="@Url.Action("XoaProduct", "Admin", new { @maDH = @item.MaDH})" class="btn btn-danger btn-xs" data-title="Delete" data-target="#delete" data-placement="top" data-toggle="tooltip" title="Delete"><span class="glyphicon glyphicon-trash"></span></a></td>
+                            </tr>
+                        }
+                    </tbody>
+                    @Html.PagedListPager(Model, page => Url.Action("AdminProduct", new { page = page}))
+                    <a href="@Url.Action("AddProduct", "Admin")" class="btn btn-primary btn-xs"><i class="fa fa-plus"></i> Thêm sản phẩm</a>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

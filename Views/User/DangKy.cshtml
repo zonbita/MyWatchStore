@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/_WatchStoreLayout.cshtml";
+}
+@section ViewCss {
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="~/Content/SingleView.css" type="text/css" runat="server" media="screen" rel="stylesheet" />
+}
+<h2 style="text-align: center">ĐĂNG KÝ</h2>
+<hr />
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div class="form-dangky container">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="hoten">Họ tên: </label>
+                <div class="col-sm-10">
+                    @Html.TextBox("HoTen", null, new { @class="form-control", @id="hoten", @placeholder="Nhập họ tên"})
+                    @ViewData["Error1"]
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="taikhoan">Tên đăng nhập: </label>
+                <div class="col-sm-10">
+                    @Html.TextBox("TaiKhoan", null, new { @class = "form-control", @id = "taikhoan", @placeholder = "Nhập tài khoản" })
+                    @ViewData["Error2"]
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="matkhau">Password:</label>
+                <div class="col-sm-10">
+                    @Html.TextBox("MatKhau", null, new { @type = "password", @class = "form-control", @id = "pwd", @placeholder = "Nhập password" })
+                    @ViewData["Error3"]
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                    @Html.TextBox("Email", null, new { @class = "form-control", @id = "email", @placeholder = "Nhập Email" })
+                    @ViewData["Error4"]
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="sdt">Số điện thoại:</label>
+                <div class="col-sm-10">
+                    @Html.TextBox("Sdt", null, new { @class = "form-control", @id = "email", @placeholder = "Nhập số điện thoại" })
+                    @ViewData["Error5"]
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Địa chỉ: </label>
+                <div class="col-sm-10">
+                    @Html.TextBox("DiaChi", null, new { @class = "form-control", @id = "diachi", @placeholder = "Nhập địa chỉ" })
+                    @ViewData["Error6"]
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Đăng ký</button>
+                </div>
+            </div>
+        </form>
+    </div>
+}
